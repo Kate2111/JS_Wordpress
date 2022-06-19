@@ -30,7 +30,7 @@
 
             </div>
 
-            <button class="promo_btn">Записаться на интенсив!</button>
+            <button data-modal class="promo_btn">Записаться на интенсив!</button>
 
             <div class="more">
                 <div class="more_text">узнать больше об интенсиве</div>
@@ -124,7 +124,7 @@
         <div class="container">
             <img src="icons/gift.png" alt="gift" class="img_gift">
             <div class="gift_text">Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!</div>
-            <button class="gift_btn">Записаться на интенсив!</button>
+            <button data-modal class="gift_btn">Записаться на интенсив!</button>
         </div>
     </section>
 
@@ -154,6 +154,21 @@
         </div>
     </footer>
 
+    <div class="modal">
+        <div class="modal_dialog">
+            <div class="modal_content">
+                <form action="#">
+                    <div data-close class="modal_close">&times;</div>
+                    <div class="modal_title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal_input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal_input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
 
