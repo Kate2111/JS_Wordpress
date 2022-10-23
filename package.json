@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://kate2111.github.io/Project1_Wordpress",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
