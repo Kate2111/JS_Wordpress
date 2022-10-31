@@ -6,14 +6,11 @@
       "author": "typicode"
     }
   ],
-  "comments": [
+  "requests": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "name": "Екатерина",
+      "phone": "892465604165",
+      "id": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
