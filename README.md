@@ -1,3 +1,3 @@
-# Progect1_Wordpress
+# JS_Wordpress
 
-https://kate2111.github.io/Project1_Wordpress
+https://kate2111.github.io/JS_Wordpress
